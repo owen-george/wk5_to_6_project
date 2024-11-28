@@ -38,8 +38,10 @@ The dataset consists of three primary files:
    - **T-tests**: Compared numerical metrics (e.g. step count, balance, visit duration, etc.) between Test and Control groups.
 
 4. **Visualization**
+   - Used Tableau to produce charts and dashboards visualising the findings
    - Generated KDE plots to compare distributions of numerical variables such as balance, age, and tenure.
    - Plotted filtered distributions after removing outliers for better interpretability.
+   - Produced a presentation containing the results
 
 ## Key Findings
 
