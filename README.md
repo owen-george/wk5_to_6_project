@@ -68,11 +68,11 @@ The dataset consists of three primary files:
 KDE plots were generated for key variables to visualize differences between Test and Control groups. Examples include:
 
 - **Age Distribution**: 
-  ![Age Distribution](../figures/age_dist_control_vs_test.png)
+  ![Age Distribution](figures/age_dist_control_vs_test.png)
 - **Balance Distribution (Filtered)**: 
-  ![Filtered Balance Distribution](../figures/bal_dist_control_vs_test_filtered.png)
+  ![Filtered Balance Distribution](figures/bal_dist_control_vs_test_filtered.png)
 - **Client Tenure Distribution**: 
-  ![Client Tenure Distribution](../figures/clnt_tenure_dist_control_vs_test.png)
+  ![Client Tenure Distribution](figures/clnt_tenure_dist_control_vs_test.png)
 
 ## Requirements
 
