@@ -17,9 +17,9 @@ The primary objectives of this project are:
 
 ## Data Description
 
-The dataset consists of three primary files:
+The dataset consists of four primary files:
 - **Client Data**: Demographic information (e.g., age, tenure, balance).
-- **Visit Data**: Details of user visits, including success rates and engagement metrics.
+- **Visit Data**: 2 files with details of user visits, including success rates and engagement metrics by step.
 - **Experiment Data**: Mapping between client IDs and test/control group assignments.
 
 ## Analysis Workflow
@@ -45,9 +45,11 @@ The dataset consists of three primary files:
 
 ## Key Findings
 
-- **Test and Control grouos**: No significant difference between Test and Control groups based on chi-square results.
+- **Test and Control grouos**: Test and Control groups based on chi-square results were statistically similar by account and client demographic.
 - **Success Rates**: Significant association between Variation (Test/Control) and successful visits.
-- **Metric Comparisons**: Some metrics, like `step_count` and `visit_duration`, showed statistically significant differences, while others did not.
+- **Metric Comparisons**: Test metrics, like `step_count` and `visit_duration`, showed statistically significant differences.
+- **Results**: Overall, the success rate increased by 2.9%, although far higher by step and just focusing on confirmations.
+- The duration of a successful visit was 13% quicker for the Test group.
 
 ## Statistical Methods Used
 
